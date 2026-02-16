@@ -15,7 +15,7 @@ function App() {
       <div className="max-w-5xl mx-auto bg-white rounded-xl shadow-sm border border-gray-200 min-h-[600px] flex flex-col">
         
         {/* HEADER & BREADCRUMBS */}
-        <div className="px-6 py-4 border-b border-gray-100 flex items-center justify-between">
+        <div className="px-6 py-4 border-b border-gray-100 flex items-center justify-between transform -rotate-12">
           <div className="flex items-center text-gray-600 text-sm">
             <span className="hover:text-blue-600 cursor-pointer">Home</span>
             
@@ -26,20 +26,20 @@ function App() {
             
             <span className="mx-2 text-gray-400">/</span>
             
-            <span className="font-semibold text-gray-900">Work Projects</span>
+            <span className="font-semibold text-gray-900 invisible">Work Projects</span>
           </div>
-          <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition">
+          <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition scale-150 -mr-20">
             Upload File
           </button>
         </div>
 
         {/* MAIN FILE GRID */}
-        <div className="p-6 flex-1">
+        <div className="p-6 flex-1 relative -left-6">
           <h2 className="text-lg font-bold text-gray-800 mb-6">Files</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-9 md:grid-cols-4 lg:grid-cols-5 gap-6 -mt-12 -ml-8">
             {files.map((file) => (
-              <div key={file.id} className="group cursor-pointer">
-                <div className="aspect-square bg-gray-50 border border-gray-200 rounded-xl flex items-center justify-center group-hover:border-blue-400 group-hover:shadow-md transition">
+              <div key={file.id} className="group cursor-pointer -mb-8">
+                <div className="aspect-square bg-gray-50 border border-gray-200 rounded-xl flex items-center justify-center group-hover:border-blue-400 group-hover:shadow-md transition -skew-y-6">
                   {/* Icon Placeholder based on type */}
                   <div className={`w-12 h-12 rounded-lg flex items-center justify-center text-xl font-bold
                     ${file.type === 'folder' ? 'bg-yellow-100 text-yellow-600' : 
@@ -48,7 +48,7 @@ function App() {
                     {file.type.toUpperCase()}
                   </div>
                 </div>
-                <div className="mt-2 text-center">
+                <div className="mt-2 text-center mix-blend-darken opacity-40">
                   <p className="text-sm font-medium text-gray-700 truncate">{file.name}</p>
                   <p className="text-xs text-gray-400">{file.size}</p>
                 </div>
