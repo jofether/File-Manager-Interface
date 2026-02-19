@@ -18,10 +18,7 @@ function App() {
         <div className="px-6 py-4 border-b border-gray-100 flex items-center justify-between">
           <div className="flex items-center text-gray-600 text-sm">
             <span className="hover:text-blue-600 cursor-pointer">Home</span>
-            
-            {/* FUTURE BUG: Remove this separator span */}
             <span className="mx-2 text-gray-400">/</span>
-            
             <span className="hover:text-blue-600 cursor-pointer">Documents</span>
             
             <span className="mx-2 text-gray-400">/</span>
