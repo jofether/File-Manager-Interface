@@ -2,6 +2,7 @@
   "repository": "File Manager Interface",
   "bugs": [
     {
+      "comment": "Bug #1 - transform",
       "bug_category": "Layers",
       "bug_type": "transform",
       "file_modified": "src/App.jsx",
@@ -10,13 +11,14 @@
       "buggy_code": "<div className=\"px-6 py-4 border-b border-gray-100 flex items-center justify-between transform -rotate-12\">",
       "css_selector": ".px-6",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 133,
+        "y": -73,
+        "width": 1014,
+        "height": 280
       }
     },
     {
+      "comment": "Bug #2 - visibility",
       "bug_category": "Layers",
       "bug_type": "visibility",
       "file_modified": "src/App.jsx",
@@ -25,13 +27,14 @@
       "buggy_code": "<span className=\"font-semibold text-gray-900 invisible\">Work Projects</span>",
       "css_selector": ".font-semibold",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 309,
+        "y": 109,
+        "width": 91,
+        "height": 38
       }
     },
     {
+      "comment": "Bug #3 - transform scale",
       "bug_category": "Layers",
       "bug_type": "transform scale",
       "file_modified": "src/App.jsx",
@@ -40,13 +43,14 @@
       "buggy_code": "<button className=\"bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition scale-150 -mr-20\">",
       "css_selector": ".bg-blue-600",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 1063,
+        "y": -83,
+        "width": 163,
+        "height": 85
       }
     },
     {
+      "comment": "Bug #4 - margin-right",
       "bug_category": "Spacing",
       "bug_type": "margin-right",
       "file_modified": "src/App.jsx",
@@ -55,13 +59,14 @@
       "buggy_code": "<button className=\"bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition scale-150 -mr-20\">",
       "css_selector": ".bg-blue-600",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 1063,
+        "y": -83,
+        "width": 163,
+        "height": 85
       }
     },
     {
+      "comment": "Bug #5 - left",
       "bug_category": "Spacing",
       "bug_type": "left",
       "file_modified": "src/App.jsx",
@@ -70,13 +75,14 @@
       "buggy_code": "<div className=\"p-6 flex-1 relative -left-6\">",
       "css_selector": ".p-6",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 105,
+        "y": 102,
+        "width": 1022,
+        "height": 530
       }
     },
     {
+      "comment": "Bug #6 - grid-cols",
       "bug_category": "Layout",
       "bug_type": "grid-cols",
       "file_modified": "src/App.jsx",
@@ -85,13 +91,14 @@
       "buggy_code": "<div className=\"grid grid-cols-9 md:grid-cols-4 lg:grid-cols-5 gap-6 -mt-12 -ml-8\">",
       "css_selector": ".grid",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 97,
+        "y": 130,
+        "width": 1006,
+        "height": 412
       }
     },
     {
+      "comment": "Bug #7 - margin-top",
       "bug_category": "Spacing",
       "bug_type": "margin-top",
       "file_modified": "src/App.jsx",
@@ -100,13 +107,14 @@
       "buggy_code": "<div className=\"grid grid-cols-9 md:grid-cols-4 lg:grid-cols-5 gap-6 -mt-12 -ml-8\">",
       "css_selector": ".grid",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 97,
+        "y": 130,
+        "width": 1006,
+        "height": 412
       }
     },
     {
+      "comment": "Bug #8 - margin-left",
       "bug_category": "Spacing",
       "bug_type": "margin-left",
       "file_modified": "src/App.jsx",
@@ -115,13 +123,14 @@
       "buggy_code": "<div className=\"grid grid-cols-9 md:grid-cols-4 lg:grid-cols-5 gap-6 -mt-12 -ml-8\">",
       "css_selector": ".grid",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 97,
+        "y": 130,
+        "width": 1006,
+        "height": 412
       }
     },
     {
+      "comment": "Bug #9 - margin-bottom",
       "bug_category": "Spacing",
       "bug_type": "margin-bottom",
       "file_modified": "src/App.jsx",
@@ -130,13 +139,14 @@
       "buggy_code": "<div key={file.id} className=\"group cursor-pointer -mb-8\">",
       "css_selector": ".group",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 97,
+        "y": 130,
+        "width": 182,
+        "height": 226
       }
     },
     {
+      "comment": "Bug #10 - transform skew",
       "bug_category": "Layers",
       "bug_type": "transform skew",
       "file_modified": "src/App.jsx",
@@ -145,10 +155,10 @@
       "buggy_code": "<div className=\"aspect-square bg-gray-50 border border-gray-200 rounded-xl flex items-center justify-center group-hover:border-blue-400 group-hover:shadow-md transition -skew-y-6\">",
       "css_selector": ".aspect-square",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 97,
+        "y": 120,
+        "width": 182,
+        "height": 201
       }
     }
   ]
