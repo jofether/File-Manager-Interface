@@ -9,12 +9,12 @@
       "line_number": 19,
       "clean_code": "<div className=\"px-6 py-4 border-b border-gray-100 flex items-center justify-between\">",
       "buggy_code": "<div className=\"px-6 py-4 border-b border-gray-100 flex items-center justify-between transform -rotate-12\">",
-      "css_selector": ".px-6",
+      "css_selector": ".px-6.border-b:has(span:has-text(\"Work Projects\"))",
       "bounding_box": {
         "x": 133,
-        "y": -73,
+        "y": 0,
         "width": 1014,
-        "height": 280
+        "height": 207
       }
     },
     {
@@ -25,7 +25,7 @@
       "line_number": 27,
       "clean_code": "<span className=\"font-semibold text-gray-900\">Work Projects</span>",
       "buggy_code": "<span className=\"font-semibold text-gray-900 invisible\">Work Projects</span>",
-      "css_selector": ".font-semibold",
+      "css_selector": "span:has-text(\"Work Projects\")",
       "bounding_box": {
         "x": 309,
         "y": 109,
@@ -41,12 +41,12 @@
       "line_number": 29,
       "clean_code": "<button className=\"bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition\">",
       "buggy_code": "<button className=\"bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition scale-150 -mr-20\">",
-      "css_selector": ".bg-blue-600",
+      "css_selector": "button:has-text(\"Upload File\")",
       "bounding_box": {
         "x": 1063,
-        "y": -83,
+        "y": 0,
         "width": 163,
-        "height": 85
+        "height": 100
       }
     },
     {
@@ -57,12 +57,12 @@
       "line_number": 29,
       "clean_code": "<button className=\"bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition\">",
       "buggy_code": "<button className=\"bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition scale-150 -mr-20\">",
-      "css_selector": ".bg-blue-600",
+      "css_selector": "button:has-text(\"Upload File\")",
       "bounding_box": {
         "x": 1063,
-        "y": -83,
+        "y": 0,
         "width": 163,
-        "height": 85
+        "height": 100
       }
     },
     {
@@ -73,7 +73,7 @@
       "line_number": 35,
       "clean_code": "<div className=\"p-6 flex-1\">",
       "buggy_code": "<div className=\"p-6 flex-1 relative -left-6\">",
-      "css_selector": ".p-6",
+      "css_selector": ".p-6.flex-1",
       "bounding_box": {
         "x": 105,
         "y": 102,
@@ -89,7 +89,7 @@
       "line_number": 38,
       "clean_code": "<div className=\"grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6\">",
       "buggy_code": "<div className=\"grid grid-cols-9 md:grid-cols-4 lg:grid-cols-5 gap-6 -mt-12 -ml-8\">",
-      "css_selector": ".grid",
+      "css_selector": "div.grid.gap-6",
       "bounding_box": {
         "x": 97,
         "y": 130,
@@ -105,7 +105,7 @@
       "line_number": 38,
       "clean_code": "<div className=\"grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6\">",
       "buggy_code": "<div className=\"grid grid-cols-9 md:grid-cols-4 lg:grid-cols-5 gap-6 -mt-12 -ml-8\">",
-      "css_selector": ".grid",
+      "css_selector": "div.grid.gap-6",
       "bounding_box": {
         "x": 97,
         "y": 130,
@@ -121,7 +121,7 @@
       "line_number": 38,
       "clean_code": "<div className=\"grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6\">",
       "buggy_code": "<div className=\"grid grid-cols-9 md:grid-cols-4 lg:grid-cols-5 gap-6 -mt-12 -ml-8\">",
-      "css_selector": ".grid",
+      "css_selector": "div.grid.gap-6",
       "bounding_box": {
         "x": 97,
         "y": 130,
@@ -137,7 +137,7 @@
       "line_number": 40,
       "clean_code": "<div key={file.id} className=\"group cursor-pointer\">",
       "buggy_code": "<div key={file.id} className=\"group cursor-pointer -mb-8\">",
-      "css_selector": ".group",
+      "css_selector": ".group:has(p:has-text(\"Meeting_Notes.docx\"))",
       "bounding_box": {
         "x": 97,
         "y": 130,
@@ -153,12 +153,12 @@
       "line_number": 41,
       "clean_code": "<div className=\"aspect-square bg-gray-50 border border-gray-200 rounded-xl flex items-center justify-center group-hover:border-blue-400 group-hover:shadow-md transition\">",
       "buggy_code": "<div className=\"aspect-square bg-gray-50 border border-gray-200 rounded-xl flex items-center justify-center group-hover:border-blue-400 group-hover:shadow-md transition -skew-y-6\">",
-      "css_selector": ".aspect-square",
+      "css_selector": ".group:has(p:has-text(\"Meeting_Notes.docx\")) .aspect-square",
       "bounding_box": {
         "x": 97,
         "y": 120,
         "width": 182,
-        "height": 201
+        "height": 250
       }
     }
   ]
